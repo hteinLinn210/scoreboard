@@ -34,3 +34,10 @@ function plusThreeGuest() {
    totalScoreGuest += 3;
    guestScore.textContent = totalScoreGuest;
 }
+
+function restart() {
+   totalScoreHome = 0;
+   totalScoreGuest = 0;
+   homeScore.textContent = totalScoreHome;
+   guestScore.textContent = totalScoreGuest;
+}

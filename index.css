@@ -9,13 +9,25 @@ body {
    font-family: "cursed time";
 }
 
+#restart-btn {
+   background-color: rgba(238, 238, 238, 1);
+   padding: 10px 16px;
+   border: none;
+   cursor: pointer;
+}
+
 .container {
    background-color: rgba(27, 36, 74, 1);
-   display: flex;
-   justify-content: space-around;
    width: 575px;
    margin: 50px auto;
    padding: 68px 85px;
+}
+
+.board-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
 }
 
 .board {
